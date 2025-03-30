@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite Test Web">
+    <parameter name="url" value="https://www.saucedemo.com"/>
+    <parameter name="username" value="standard_user"/>
+    <parameter name="password" value="secret_sauce"/>
+    <test name="Firt My Test">
+        <classes>
+            <class name="com.juaracoding.pageobjectfactory.hook.Hook" />
+            <class name="com.juaracoding.pageobjectfactory.pages.LoginPageTest" />
+            <class name="com.juaracoding.pageobjectfactory.pages.InventoryPageTest" />
+            <class name="com.juaracoding.pageobjectfactory.pages.CartPageTest" />
+            <class name="com.juaracoding.pageobjectfactory.pages.CheckoutInformationTest" />
+            <class name="com.juaracoding.pageobjectfactory.pages.CheckoutOverviewTest" />
+            <class name="com.juaracoding.pageobjectfactory.pages.CheckOutCompleteTest" />
+            <class name="com.juaracoding.pageobjectfactory.pages.SideBarTest" />
+        </classes>
+    </test>
+</suite>
